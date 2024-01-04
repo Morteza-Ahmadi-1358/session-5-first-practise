@@ -1,0 +1,27 @@
+@font-face {
+    font-family: IranYekan;
+    src: url(../fonts/iranyekanwebregular.ttf);
+  }
+  .dv_main_content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+  }
+  .btn_refresh {
+    font-family: IranYekan;
+    display: block;
+    width: 25%;
+    border: 1px solid #ff1749;
+    border-radius: 5px;
+    color: #ff1749;
+    background-color: #fff;
+    margin: 15px auto;
+  }
+  .btn_refresh:hover {
+    cursor: pointer;
+    border: 1px solid #ff1749;
+    color: #fff;
+    background-color: #ff1749;
+  }
+  

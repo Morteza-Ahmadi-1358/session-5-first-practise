@@ -1,0 +1,28 @@
+@font-face {
+    font-family: IranYekan;
+    src: url(../fonts/iranyekanwebregular.ttf);
+}
+.dv_main_content{
+    width: 35%;
+    margin: 25px auto;
+    display: flex;
+    flex-direction: column;
+}
+.dv_user_info{
+    margin: 25px auto;
+    display: flex;
+    flex-direction: column;
+}
+.dv_login{
+    margin: 25px auto;
+}
+.txt_username, .txt_password{
+    font-family: IranYekan;
+    width: 100%;
+    border: 1px solid #ff1749;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 10px auto;
+    outline: none;
+    box-sizing: border-box;
+}
